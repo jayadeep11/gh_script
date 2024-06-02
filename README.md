@@ -1,7 +1,8 @@
-# GitHub Browser Script
+# gh_command
 
-This Bash script allows you to quickly open various GitHub pages related to your account using the browser. You can easily navigate to your repositories, SSH keys, tokens, and other personal repositories by passing specific arguments to the script.
+## Description
 
-## Usage
+`gh_command` is a simple Bash script to quickly navigate to specific GitHub URLs using the Brave browser by passing simple keys.
 
-Run the script with one of the following arguments to open the respective GitHub pages in browser.
+## Installation
+
