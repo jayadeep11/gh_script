@@ -1,8 +1,15 @@
-#!/bin/bash
 
-username="jayadeep11"
-git_url="https://github.com"
-browser_name="brave" # change to your browser
+# do it manual
+
+# git_url='https://github.com'
+# username='jayadeep11'
+# browser_name='brave'
+
+# change file to 'gh' after run this
+# chmod +x gh
+
+# or simply run script
+
 
 # Check if an argument is provided
 if [ $# -eq 0 ]; then
@@ -41,6 +48,5 @@ else
             ;;
     esac
 fi
-
 
 
