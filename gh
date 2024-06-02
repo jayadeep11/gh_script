@@ -13,7 +13,7 @@ else
             brave "$git_url/new"
             ;;
         repos)
-            brave "$git_url/$username?tab=repositories'r"
+            brave "$git_url/$username?tab=repositories"
             ;;
         ssh)
             $browser_name "$git_url/settings/keys"
@@ -29,6 +29,9 @@ else
             ;;
         pers)
             $browser_name "$git_url/$username/personal-site"
+            ;;
+        gh)
+            $browser_name "$git_url/$username/gh_command"
             ;;
 
         # safe case
