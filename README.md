@@ -8,6 +8,7 @@ gh is a simple Bash script to quickly navigate to specific GitHub URLs using the
 
 #### Arch Linux
 
+
 To make the gh command available as a normal command, you can copy the gh binary to a directory in your system's PATH
 <br>
 such as /usr/local/bin or /usr/bin.
@@ -15,6 +16,21 @@ such as /usr/local/bin or /usr/bin.
 
 However, it is generally recommended to use /usr/local/bin for user-installed binaries to **avoid potential conflicts** with system-managed binaries.
 
+### To install and run the script, please follow these steps:
+
+1. Clone the Repository:
+
 ```bash
-sudo cp gh /usr/local/bin/
+git clone https://github.com/jayadeep11/gh_command.git
+cd gh_command
 ```
+2. Run the Script:
+
+```
+./install.sh
+```
+
+
+> Now you can use gh as normal command
+
+
