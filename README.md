@@ -2,7 +2,7 @@
 
 ## Description
 
-gh is a simple Bash script to quickly navigate to specific GitHub URLs using the Brave browser by passing simple keys.
+This script helps you quickly open various GitHub pages in your browser. You can open the main GitHub page, create a new repository, view your repositories, manage SSH keys, manage personal access tokens, and more, all with simple command-line arguments.
 
 ## Installation
 
@@ -32,5 +32,22 @@ cd gh_command
 
 
 > Now you can use gh as normal command
+
+
+## Usage
+
+### Arguments
+
+You can provide various arguments to open specific pages:
+
+- `new` - Open the new repository creation page.
+- `repos` - Open the repositories tab of your profile.
+- `ssh` - Open the SSH keys settings page.
+- `tokens` - Open the personal access tokens settings page.
+- `d` - Open your dotfiles repository (personal repository).
+- `*` - Any other argument will default to opening your GitHub profile page.
+
+
+If no arguments are provided, the script opens the main GitHub URL in your preferred browser.
 
 

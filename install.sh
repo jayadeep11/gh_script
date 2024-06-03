@@ -47,7 +47,7 @@ browser_name='$browser'
 
 "> gh
 
-    cat h >> gh
+    cat .h >> gh
 
     chmod +x gh
 
