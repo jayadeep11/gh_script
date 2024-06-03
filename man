@@ -1,0 +1,50 @@
+.TH GH 1 "June 2024" "1.0" "GitHub URL Opener Manual"
+
+.SH NAME
+gh \- A script to open various GitHub pages in your browser.
+
+.SH SYNOPSIS
+.B gh
+[\fIoption\fR]
+
+.SH DESCRIPTION
+.B gh
+is a script that helps you quickly open various GitHub pages in your preferred browser.
+
+.SH OPTIONS
+.TP
+.B new
+Open the new repository creation page.
+.TP
+.B repos
+Open the repositories tab of your profile.
+.TP
+.B ssh
+Open the SSH keys settings page.
+.TP
+.B tokens
+Open the personal access tokens settings page.
+.TP
+.B *
+Any other argument will default to opening your GitHub profile page.
+
+.SH EXAMPLES
+.B gh new
+.br
+Open the new repository creation page.
+
+.B gh repos
+.br
+Open the repositories tab of your profile.
+
+.SH AUTHOR
+Written by Jayadeep Bellamkonda.
+
+.SH LICENSE
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+.SH SEE ALSO
+.BR brave (1),
+.BR chrome (1),
+.BR firefox (1).
+

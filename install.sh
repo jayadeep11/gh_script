@@ -23,7 +23,7 @@ browsers=("google-chrome-stable" "firefox" "brave")
 if [[ $INST == "y" || $INST == "Y" ]]; then
     # Echo and create a directory
     rm -rf gh
-    echo "works";
+    echo "loading...";
     read  -p $'enter your github username: ' git_username
 
     # # Use fzf to select a browser
@@ -48,12 +48,15 @@ browser_name='$browser'
 "> gh
 
     cat .h >> gh
+    cat man >> gh.1
 
     chmod +x gh
 
     sudo mv gh /usr/local/bin/
+    sudo mv gh.1 /usr/local/man/man1/
+    sudo mandb
 
 else
-    echo "works well"
+    echo "Sucks ! get out here"
 fi
 
