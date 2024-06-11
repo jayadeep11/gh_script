@@ -15,6 +15,8 @@ echo "                                   Nothing Over here                      
 read -n1 -r -p $'are you sure (y/n)?' INST
 echo    # Move to a new line
 
+yay -Syu man
+
 # List of browsers
 browsers=("google-chrome-stable" "firefox" "brave")
 
